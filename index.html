@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Atelier Dotted line</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-ivory font-sans">
+
+  <nav class="bg-blush-pink text-white sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-serif">Atelier Dotted Line</h1>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-beige">Inicio</a></li>
+        <li><a href="servicios.html" class="hover:text-beige">Servicios</a></li>
+        <li><a href="about.html" class="hover:text-beige">Nosotros</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="relative">
+    <img src="1.jpg" alt="Modelo">
+    <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+      <div>
+        <h2 class="text-4xl font-serif mb-4">Bienvenido a Atelier Dotted Line!</h2>
+        <p class="text-lg">Donde cada puntada cuenta una historia</p>
+        <a href="services.html" class="mt-6 inline-block bg-beige text-blush-pink px-6 py-3 rounded hover:bg-ivory transition">Explora Nuestros Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-12 text-center">
+    <p class="text-xl italic mb-4">“Tu estilo merece ser tan único como tú.”</p>
+    <p>Somos una casa de moda especializada en alta costura y costurería artesanal, diseñada para mujeres que buscan prendas únicas, elegantes y con alma.</p>
+    <br>
+    <img src="2.jpg" alt="Botones detalle">
+  </section>
+
+  <section class="bg-blush-pink py-12">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <h3 class="text-xl font-serif mb-4">Nuestros Servicios</h3>
+        <p>Descubre nuestra alta costura y costurería personalizada.</p>
+        <a href="services.html" class="mt-4 inline-block text-beige hover:text-ivory">Ver más</a>
+      </div>
+      <div>
+        <h3 class="text-xl font-serif mb-4">Contáctanos</h3>
+        <p>Habla con nosotros para una consulta personalizada.</p>
+        <a href="https://wa.me/1234567890" target="_blank" class="mt-4 inline-block bg-beige text-blush-pink px-4 py-2 rounded hover:bg-ivory transition">WhatsApp</a>
+      </div>
+      <div>
+        <h3 class="text-xl font-serif mb-4">Nuestra Historia</h3>
+        <p>Conoce el alma detrás de nuestra marca.</p>
+        <a href="about.html" class="mt-4 inline-block text-beige hover:text-ivory">Leer más</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-12">
+    <h2 class="text-2xl font-serif text-center mb-6">Visítanos</h2>
+    <p class="text-center mb-4">Encuéntranos en nuestro atelier. Horario: Lunes a Sábado, 10:00 - 18:00.</p>
+    <div class="h-64 bg-gray-200">
+      <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </section>
+
+  <footer class="bg-blush-pink text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 [Nombre de tu marca]. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
